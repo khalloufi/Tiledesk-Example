@@ -16,6 +16,8 @@
 		C27A5B75288800B900D11F69 /* Tiledesk_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B74288800B900D11F69 /* Tiledesk_ExampleTests.swift */; };
 		C27A5B7F288800B900D11F69 /* Tiledesk_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B7E288800B900D11F69 /* Tiledesk_ExampleUITests.swift */; };
 		C27A5B81288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B80288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift */; };
+		C27A5B8E288801C500D11F69 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B8D288801C500D11F69 /* WebView.swift */; };
+		C27A5B902888023400D11F69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B8F2888023400D11F69 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C27A5B7A288800B900D11F69 /* Tiledesk-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiledesk-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27A5B7E288800B900D11F69 /* Tiledesk_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleUITests.swift; sourceTree = "<group>"; };
 		C27A5B80288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C27A5B8D288801C500D11F69 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C27A5B8F2888023400D11F69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				C27A5B67288800B900D11F69 /* Persistence.swift */,
 				C27A5B69288800B900D11F69 /* Tiledesk_Example.xcdatamodeld */,
 				C27A5B64288800B900D11F69 /* Preview Content */,
+				C27A5B8D288801C500D11F69 /* WebView.swift */,
+				C27A5B8F2888023400D11F69 /* ViewModel.swift */,
 			);
 			path = "Tiledesk-Example";
 			sourceTree = "<group>";
@@ -264,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27A5B68288800B900D11F69 /* Persistence.swift in Sources */,
+				C27A5B8E288801C500D11F69 /* WebView.swift in Sources */,
 				C27A5B6B288800B900D11F69 /* Tiledesk_Example.xcdatamodeld in Sources */,
 				C27A5B61288800B700D11F69 /* ContentView.swift in Sources */,
+				C27A5B902888023400D11F69 /* ViewModel.swift in Sources */,
 				C27A5B5F288800B700D11F69 /* Tiledesk_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
