@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27A5B5F288800B700D11F69 /* Tiledesk_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B5E288800B700D11F69 /* Tiledesk_ExampleApp.swift */; };
+		C27A5B61288800B700D11F69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B60288800B700D11F69 /* ContentView.swift */; };
+		C27A5B63288800B900D11F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A5B62288800B900D11F69 /* Assets.xcassets */; };
+		C27A5B66288800B900D11F69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A5B65288800B900D11F69 /* Preview Assets.xcassets */; };
+		C27A5B68288800B900D11F69 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B67288800B900D11F69 /* Persistence.swift */; };
+		C27A5B6B288800B900D11F69 /* Tiledesk_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B69288800B900D11F69 /* Tiledesk_Example.xcdatamodeld */; };
+		C27A5B75288800B900D11F69 /* Tiledesk_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B74288800B900D11F69 /* Tiledesk_ExampleTests.swift */; };
+		C27A5B7F288800B900D11F69 /* Tiledesk_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B7E288800B900D11F69 /* Tiledesk_ExampleUITests.swift */; };
+		C27A5B81288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5B80288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27A5B71288800B900D11F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A5B53288800B700D11F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A5B5A288800B700D11F69;
+			remoteInfo = "Tiledesk-Example";
+		};
+		C27A5B7B288800B900D11F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A5B53288800B700D11F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A5B5A288800B700D11F69;
+			remoteInfo = "Tiledesk-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27A5B5B288800B700D11F69 /* Tiledesk-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiledesk-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A5B5E288800B700D11F69 /* Tiledesk_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleApp.swift; sourceTree = "<group>"; };
+		C27A5B60288800B700D11F69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C27A5B62288800B900D11F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C27A5B65288800B900D11F69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C27A5B67288800B900D11F69 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C27A5B6A288800B900D11F69 /* Tiledesk_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiledesk_Example.xcdatamodel; sourceTree = "<group>"; };
+		C27A5B70288800B900D11F69 /* Tiledesk-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiledesk-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A5B74288800B900D11F69 /* Tiledesk_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleTests.swift; sourceTree = "<group>"; };
+		C27A5B7A288800B900D11F69 /* Tiledesk-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiledesk-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A5B7E288800B900D11F69 /* Tiledesk_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleUITests.swift; sourceTree = "<group>"; };
+		C27A5B80288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiledesk_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27A5B58288800B700D11F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B6D288800B900D11F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B77288800B900D11F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27A5B52288800B700D11F69 = {
+			isa = PBXGroup;
+			children = (
+				C27A5B5D288800B700D11F69 /* Tiledesk-Example */,
+				C27A5B73288800B900D11F69 /* Tiledesk-ExampleTests */,
+				C27A5B7D288800B900D11F69 /* Tiledesk-ExampleUITests */,
+				C27A5B5C288800B700D11F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27A5B5C288800B700D11F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27A5B5B288800B700D11F69 /* Tiledesk-Example.app */,
+				C27A5B70288800B900D11F69 /* Tiledesk-ExampleTests.xctest */,
+				C27A5B7A288800B900D11F69 /* Tiledesk-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27A5B5D288800B700D11F69 /* Tiledesk-Example */ = {
+			isa = PBXGroup;
+			children = (
+				C27A5B5E288800B700D11F69 /* Tiledesk_ExampleApp.swift */,
+				C27A5B60288800B700D11F69 /* ContentView.swift */,
+				C27A5B62288800B900D11F69 /* Assets.xcassets */,
+				C27A5B67288800B900D11F69 /* Persistence.swift */,
+				C27A5B69288800B900D11F69 /* Tiledesk_Example.xcdatamodeld */,
+				C27A5B64288800B900D11F69 /* Preview Content */,
+			);
+			path = "Tiledesk-Example";
+			sourceTree = "<group>";
+		};
+		C27A5B64288800B900D11F69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C27A5B65288800B900D11F69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C27A5B73288800B900D11F69 /* Tiledesk-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C27A5B74288800B900D11F69 /* Tiledesk_ExampleTests.swift */,
+			);
+			path = "Tiledesk-ExampleTests";
+			sourceTree = "<group>";
+		};
+		C27A5B7D288800B900D11F69 /* Tiledesk-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C27A5B7E288800B900D11F69 /* Tiledesk_ExampleUITests.swift */,
+				C27A5B80288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "Tiledesk-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27A5B5A288800B700D11F69 /* Tiledesk-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A5B84288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-Example" */;
+			buildPhases = (
+				C27A5B57288800B700D11F69 /* Sources */,
+				C27A5B58288800B700D11F69 /* Frameworks */,
+				C27A5B59288800B700D11F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiledesk-Example";
+			productName = "Tiledesk-Example";
+			productReference = C27A5B5B288800B700D11F69 /* Tiledesk-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27A5B6F288800B900D11F69 /* Tiledesk-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A5B87288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-ExampleTests" */;
+			buildPhases = (
+				C27A5B6C288800B900D11F69 /* Sources */,
+				C27A5B6D288800B900D11F69 /* Frameworks */,
+				C27A5B6E288800B900D11F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27A5B72288800B900D11F69 /* PBXTargetDependency */,
+			);
+			name = "Tiledesk-ExampleTests";
+			productName = "Tiledesk-ExampleTests";
+			productReference = C27A5B70288800B900D11F69 /* Tiledesk-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C27A5B79288800B900D11F69 /* Tiledesk-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A5B8A288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-ExampleUITests" */;
+			buildPhases = (
+				C27A5B76288800B900D11F69 /* Sources */,
+				C27A5B77288800B900D11F69 /* Frameworks */,
+				C27A5B78288800B900D11F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27A5B7C288800B900D11F69 /* PBXTargetDependency */,
+			);
+			name = "Tiledesk-ExampleUITests";
+			productName = "Tiledesk-ExampleUITests";
+			productReference = C27A5B7A288800B900D11F69 /* Tiledesk-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27A5B53288800B700D11F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C27A5B5A288800B700D11F69 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					C27A5B6F288800B900D11F69 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = C27A5B5A288800B700D11F69;
+					};
+					C27A5B79288800B900D11F69 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = C27A5B5A288800B700D11F69;
+					};
+				};
+			};
+			buildConfigurationList = C27A5B56288800B700D11F69 /* Build configuration list for PBXProject "Tiledesk-Example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27A5B52288800B700D11F69;
+			productRefGroup = C27A5B5C288800B700D11F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27A5B5A288800B700D11F69 /* Tiledesk-Example */,
+				C27A5B6F288800B900D11F69 /* Tiledesk-ExampleTests */,
+				C27A5B79288800B900D11F69 /* Tiledesk-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27A5B59288800B700D11F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A5B66288800B900D11F69 /* Preview Assets.xcassets in Resources */,
+				C27A5B63288800B900D11F69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B6E288800B900D11F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B78288800B900D11F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27A5B57288800B700D11F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A5B68288800B900D11F69 /* Persistence.swift in Sources */,
+				C27A5B6B288800B900D11F69 /* Tiledesk_Example.xcdatamodeld in Sources */,
+				C27A5B61288800B700D11F69 /* ContentView.swift in Sources */,
+				C27A5B5F288800B700D11F69 /* Tiledesk_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B6C288800B900D11F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A5B75288800B900D11F69 /* Tiledesk_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A5B76288800B900D11F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A5B81288800B900D11F69 /* Tiledesk_ExampleUITestsLaunchTests.swift in Sources */,
+				C27A5B7F288800B900D11F69 /* Tiledesk_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27A5B72288800B900D11F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A5B5A288800B700D11F69 /* Tiledesk-Example */;
+			targetProxy = C27A5B71288800B900D11F69 /* PBXContainerItemProxy */;
+		};
+		C27A5B7C288800B900D11F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A5B5A288800B700D11F69 /* Tiledesk-Example */;
+			targetProxy = C27A5B7B288800B900D11F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C27A5B82288800B900D11F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27A5B83288800B900D11F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27A5B85288800B900D11F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiledesk-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C27A5B86288800B900D11F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiledesk-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C27A5B88288800B900D11F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiledesk-Example.app/Tiledesk-Example";
+			};
+			name = Debug;
+		};
+		C27A5B89288800B900D11F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiledesk-Example.app/Tiledesk-Example";
+			};
+			name = Release;
+		};
+		C27A5B8B288800B900D11F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiledesk-Example";
+			};
+			name = Debug;
+		};
+		C27A5B8C288800B900D11F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWH9XZAYGQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.issam.Tiledesk-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiledesk-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27A5B56288800B700D11F69 /* Build configuration list for PBXProject "Tiledesk-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A5B82288800B900D11F69 /* Debug */,
+				C27A5B83288800B900D11F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A5B84288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A5B85288800B900D11F69 /* Debug */,
+				C27A5B86288800B900D11F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A5B87288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A5B88288800B900D11F69 /* Debug */,
+				C27A5B89288800B900D11F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A5B8A288800B900D11F69 /* Build configuration list for PBXNativeTarget "Tiledesk-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A5B8B288800B900D11F69 /* Debug */,
+				C27A5B8C288800B900D11F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C27A5B69288800B900D11F69 /* Tiledesk_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C27A5B6A288800B900D11F69 /* Tiledesk_Example.xcdatamodel */,
+			);
+			currentVersion = C27A5B6A288800B900D11F69 /* Tiledesk_Example.xcdatamodel */;
+			path = Tiledesk_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C27A5B53288800B700D11F69 /* Project object */;
+}
